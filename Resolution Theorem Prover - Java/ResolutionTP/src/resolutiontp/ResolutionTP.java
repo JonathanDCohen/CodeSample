@@ -33,7 +33,8 @@ public class ResolutionTP {
      * Reads a list of logical clauses from standard input and then prunes the input
      * using the subsumption heuristic.
      * Clauses should be space-separated strings, with a tilde (~) representing
-     * the logical negation of a literal. (eg, A B ~C)
+     * the logical negation of a literal. (eg, A B ~C).  The list of clauses 
+     * should be terminated with the word "end" on its own line.
      */
     public ResolutionTP() {
         Scanner in = new Scanner(System.in);

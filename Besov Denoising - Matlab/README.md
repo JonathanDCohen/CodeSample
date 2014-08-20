@@ -1,0 +1,3 @@
+MATLAB code sample.
+
+The is the MATLAB implementation of Besov Space Image Denoising, completed as part of the research group of Dr. Stacey Levine at Duquesne University.  The main method is BesovChambollePock, and at it's simplest just needs to be passed an input image to denoise, but also optionally takes a Lagrange Multiplier and an error threshold for convergence testing.  The method is described in BesovDesnosing.pdf, our working preprint for the project.
